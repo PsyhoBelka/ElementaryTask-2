@@ -25,10 +25,20 @@ public class Envelop {
         this.height = height;
     }
 
+	public Envelop() {
+
+	}
+
+	public Envelop(double width, double height) {
+
+		this.width = width;
+		this.height = height;
+	}
+
     public double square() {
 
-        return this.height * this.width;
-    }
+		return height * width;
+	}
 
     public boolean compareEnv(Envelop envelop) {
 
